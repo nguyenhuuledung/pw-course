@@ -1,9 +1,9 @@
 a. Tạo 3 file: file1, file2, file3 
 => local
 b. Chạy lệnh: git init 
-=> local
+=> working
 c. Chạy lệnh: git commit -m”init project” 
-=> local
+=> working
 d. Chạy lệnh: git add file1 
 => file1 vào staging
 e. Chạy lệnh: git commit -m”add file1”  
