@@ -1,0 +1,8 @@
+git init
+=> khởi tạo repo git, làm 1 lần
+git add <file_name>
+=> add <file_name> vào staging
+git add .
+=> add tất cả file ( còn lại ) vào staging
+git commit -m “message”.
+=> đẩy các file ở staging lên repo
