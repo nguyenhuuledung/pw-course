@@ -1,0 +1,11 @@
+git commit --amend
+=> nhờ các bạn giải phần này
+
+git commit --amend -m”<message>”
+=> đổi lại comment của commit mới nhất
+
+git restore --staged <file>
+=>  undo <file> từ staging về work
+
+git reset HEAD~1
+=>  undo 1 commit mới nhất từ repo về work

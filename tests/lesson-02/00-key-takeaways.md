@@ -6,6 +6,9 @@
 3. Repo
 
 **Commit Convention**
++ feat: thêm tính năng 
++ fix: sửa lỗi 
++ chore: sửa nhỏ lẻ
 
 **Markdown**
 
