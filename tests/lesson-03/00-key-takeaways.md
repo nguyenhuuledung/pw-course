@@ -21,6 +21,43 @@ git commit --amend -m”message”
     ```typescript
     git reset HEAD~N
     ```
-3. Repo
 
+**JS**
+1. Update
 
+Vẫn update đc 1 thuộc tính của object
+  ```typescript
+const student = {“name”: “alex”, “age”: 20}
+student.name = “Nagi”; // Hợp lệ
+```
+2. Add 
+
+Có thẻ dùng . hoặc [] để thêm thuộc tính mới cho object
+```typescript
+let bike = {
+make: 'Yamaha',
+model: 'YZF-R3'
+};
+bike.color = “Blue”;
+bike[“price new”] = 100;
+```
+```typescript
+console.log(bike);
+{make: 'Yamaha', model: 'YZF-R3', color: 'Blue', ‘price new’ : 100}
+```
+
+3. Delete
+
+Dùng hàm delete:
+```typescript
+let employee = {
+name: 'Le Van C',
+age: 30,
+department: 'HR'
+};
+delete employee.age;
+```
+```typescript
+console.log(employee);
+{name: 'Le Van C', department: 'HR'}
+```
